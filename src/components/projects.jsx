@@ -20,7 +20,8 @@ export default function Projects() {
           E-commerce
         
       </h3>
-      <img src={commerce} alt='man-in-sweater'/>
+      <img src={commerce} alt='man-in-sweater' fill
+      sizes='(max-width: 768px) 100vw, 361px'/>
       <a className='button .project-demo-btn' href="https://e-commerce-website-sepia-five.vercel.app/"  target="_blank"
   rel="noopener noreferrer">
     View Demo
@@ -33,7 +34,8 @@ export default function Projects() {
           Blog Project
   
       </h3>
-       <img src={blog} alt='beach'/>
+       <img src={blog} alt='beach' fill
+      sizes='(max-width: 768px) 100vw, 361px'/>
        <a className='button' href="https://my-django-project-ynus.onrender.com/"  target="_blank" rel="noopener noreferrer">
           View Demo
         </a>
@@ -46,7 +48,8 @@ export default function Projects() {
           Django Backend
        
       </h3>
-       <img src={school} alt='teacher'/>
+       <img src={school} alt='teacher' fill
+      sizes='(max-width: 768px) 100vw, 361px'/>
     <a className='button' href="https://my-django-project-ynus.onrender.com/accounts/login/"  target="_blank" rel="noopener noreferrer">
     View Demo
     </a>

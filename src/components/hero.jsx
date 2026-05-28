@@ -25,6 +25,8 @@ export default function Hero(){
       alt="a girl coding"
       loading="lazy"
       decoding="async"
+      fill
+      sizes='(max-width: 768px) 100vw, 361px'
     />
   </div>
 

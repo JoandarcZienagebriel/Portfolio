@@ -1,4 +1,4 @@
-import a_girl_coding from '../assets/img/a_girl_coding.png';
+
 
 export default function Hero(){
     return(

@@ -8,17 +8,24 @@ const parent={
  hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.15
+      staggerChildren: 0.18
     }
- 
-}
+  }
 }
 const child={
-   hidden: { opacity: 0, y: 20 },
+   hidden: {
+    opacity: 0,
+    y: 40,
+    scale: 0.96
+  },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.4 }
+    scale: 1,
+    transition: {
+      duration: 0.5,
+      ease: "easeOut"
+    }
   }
 }
 export default function Projects() {

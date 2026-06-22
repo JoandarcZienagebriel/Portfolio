@@ -13,19 +13,16 @@ const parent={
   }
 }
 const child={
-   hidden: {
+    hidden: {
     opacity: 0,
-    y: 40,
-    scale: 0.96
+    y: 50,
+    scale: 0.95
   },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut"
-    }
+    transition: { duration: 0.5 }
   }
 }
 export default function Projects() {
@@ -37,8 +34,7 @@ export default function Projects() {
     >
   <h2>Projects</h2>
 
-  <motion.div className="columns" variants={parent} initial='hidden' whileInView="visible"
-  viewport={{ once: true }}>
+  <motion.div className="columns" variants={parent} initial='hidden' viewport={{ once: true, amount: 0.2 }}>
 
     <motion.div className="card project-card" variants={child}>
       

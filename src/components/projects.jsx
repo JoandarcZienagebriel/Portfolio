@@ -8,7 +8,7 @@ const parent={
  hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.15
+      staggerChildren: .15
     }
  
 }
@@ -17,7 +17,7 @@ const child={
    hidden: {
     opacity: 0,
     y: 40,
-    scale: 0.7
+    scale: 0.95
   },
   visible: {
     opacity: 1,

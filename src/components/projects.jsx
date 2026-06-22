@@ -17,7 +17,7 @@ const child={
    hidden: {
     opacity: 0,
     y: 40,
-    scale: 0.96
+    scale: 0.7
   },
   visible: {
     opacity: 1,

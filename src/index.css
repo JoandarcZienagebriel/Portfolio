@@ -186,8 +186,8 @@ text-decoration: none;
 
   background-image: url(./assets/img/hero2.png);
   border: 3px solid var(--border-color);
-  padding: 6rem 2rem;
-  width: 60%;
+  width: 96%;
+  padding: 1.5rem;
 
   
 }
@@ -244,7 +244,7 @@ font-family: var(--font-heading);
     scale(1.02);
 background:var(--button-hover);
   box-shadow:
-    0px 18px 45px #FFFAFA;
+    0 8px 20px var(--surface-color);
 }
 
 
@@ -617,6 +617,12 @@ p{
   section{
     padding:7rem 6rem;
   }
+
+.hero-text{
+  padding: 6rem 2rem;
+  width: 60%;
+}
+
 
   .columns{
     grid-template-columns:repeat(3,1fr);

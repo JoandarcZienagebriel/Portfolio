@@ -1,7 +1,18 @@
 import commerce from '../assets/img/commerce.avif';
 import school from '../assets/img/school.avif';
 import blog from '../assets/img/blog.avif';
+import { motion } from 'motion/react';
 
+
+const parent={
+  hidden:{opacity:0},
+  visible:{opacity: 1, transition:{staggerChildren: 0.2}},
+ 
+}
+const child={
+  hidden:{opacity: 0},
+  visible:{opacity: 1}
+}
 export default function Projects() {
   return (
     <section
@@ -11,9 +22,10 @@ export default function Projects() {
     >
   <h2>Projects</h2>
 
-  <div className="columns">
+  <motion.div className="columns" variants={parent} initial='hidden' whileInView="visible"
+  viewport={{ once: true }}>
 
-    <div className="card project-card">
+    <motion.div className="card project-card" variants={child}>
       
       <h3>
         
@@ -28,9 +40,9 @@ export default function Projects() {
   rel="noopener noreferrer">
     View Demo
     </a>
-    </div>
+    </motion.div>
 
-    <div className="card project-card">
+    <motion.div className="card project-card" variants={child}>
       <h3>
       
           Blog Project
@@ -43,9 +55,9 @@ export default function Projects() {
        <a className='button' href="https://my-django-project-ynus.onrender.com/"  target="_blank" rel="noopener noreferrer">
           View Demo
         </a>
-    </div>
+    </motion.div>
 
-    <div className="card project-card">
+    <motion.div className="card project-card" variants={child}>
     
       <h3>
         
@@ -59,9 +71,9 @@ export default function Projects() {
     <a className='button' href="https://my-django-project-ynus.onrender.com/accounts/login/"  target="_blank" rel="noopener noreferrer">
     View Demo
     </a>
-    </div>
+    </motion.div>
 
-  </div>
+  </motion.div>
 </section>
     )
 }

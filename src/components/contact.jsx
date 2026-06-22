@@ -1,16 +1,16 @@
 export default function Contact(){
     return(
-        <section id="contact" class="contact-section">
+        <section id="contact" className="contact-section">
 
-  <div class="contact-container">
+  <div className="contact-container">
 
-    <div class="contact-text">
+    <div className="contact-text">
 
-      <p class="contact-label">LET'S BUILD SOMETHING GREAT</p>
+      <p className="contact-label">LET'S BUILD SOMETHING GREAT</p>
 
       <h2>Get In Touch</h2>
 
-      <p class="contact-description">
+      <p className="contact-description">
         Whether you need a responsive web application, a modern UI,
         or usability improvements, I’d love to help bring your ideas
         to life.
@@ -18,18 +18,18 @@ export default function Contact(){
 
     </div>
 
-    <div class="contact-actions">
+    <div className="contact-actions">
 
       <a
         href="mailto:Joandarczienagebriel@gmail.com"
-        class="contact-btn primary-btn"
+        className="contact-btn primary-btn"
       >
         Send Email
       </a>
 
       <a
-        href="#"
-        class="contact-btn secondary-btn"
+       href="https://www.linkedin.com/in/joandarc-zienagebriel/"
+        className="contact-btn secondary-btn"
       >
         LinkedIn
       </a>

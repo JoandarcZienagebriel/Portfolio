@@ -1,17 +1,20 @@
 import { useState } from 'react';
+import { Cursor } from "motion-plus/react";
 import Nav from './components/nav';
 import Hero from './components/hero';
 import Projects from './components/projects';
 import Skills from './components/skills';
 import Contact from './components/contact';
 import Footer from './components/Footer';
-import Reviews from './components/reviews';
+
 
 export default function App(){
  
   return(
-    <body>
-
+    <div>
+ <Cursor>
+    <div className="custom-cursor" />
+ </Cursor>
 <Nav/>
 
 <Hero/>
@@ -20,9 +23,9 @@ export default function App(){
 
 <Skills/>
 <Contact/>
-<Reviews/>
+
 <Footer/>
 
-</body>
+</div>
   )
 }

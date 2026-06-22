@@ -1,21 +1,24 @@
+import { useState } from "react";
+
 export default function Reviews(){
+  const[review,setReview]= useState('');
   return(
 
 
-<section id="reviews" class="reviews-section container">
+<section id="reviews" className="reviews-section container">
 
   <h2>What People Say</h2>
 
   
-  <div class="reviews-feed">
+  <div className="reviews-feed">
 
    
 
-    <div class="review-item">
-      <p class="review-text">
+    <div className="review-item">
+      <p className="review-text">
         “Clean structure, smooth interactions, and great responsiveness.”
       </p>
-      <span class="review-meta">Daniel T · Frontend Developer</span>
+      <span className="review-meta">Daniel T · Frontend Developer</span>
     </div>
 
    
@@ -23,10 +26,10 @@ export default function Reviews(){
   </div>
 
 
-  <div class="review-input-bar">
+  <div className="review-input-bar">
 
-    <input type="text" placeholder="Write a review..." />
-    <a class="button">Send</a>
+    <input type="text" placeholder="Write a review..." alt="write a review" onChange={(e)=>setReview(e.target.value)} value={review}/>
+    <a className="button">Send</a>
 
   </div>
 

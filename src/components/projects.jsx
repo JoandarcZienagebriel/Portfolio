@@ -5,13 +5,21 @@ import { motion } from 'motion/react';
 
 
 const parent={
-  hidden:{opacity:0},
-  visible:{opacity: 1, transition:{staggerChildren: 0.2}},
+ hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.15
+    }
  
 }
+}
 const child={
-  hidden:{opacity: 0},
-  visible:{opacity: 1}
+   hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.4 }
+  }
 }
 export default function Projects() {
   return (

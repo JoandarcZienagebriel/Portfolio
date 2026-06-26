@@ -84,7 +84,7 @@ export default function Projects() {
       sizes='(max-width: 768px) 100vw, 361px'/>
       <p>Developed a full-stack student grading management system using React and Django,
          enabling teachers to create, view, update, and delete student records and grades through a secure and efficient interface.</p>
-    <a className='button' href="https://my-django-project-ynus.onrender.com/accounts/login/"  target="_blank" rel="noopener noreferrer">
+    <a className='button' href="https://crud-alpha-virid.vercel.app/"  target="_blank" rel="noopener noreferrer">
     View Demo
     </a>
     </motion.div>

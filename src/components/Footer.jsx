@@ -10,8 +10,8 @@ return(
     </p>
 
     <div className="footer-links">
-      <a href="#">LinkedIn</a>
-      <a href="mailto:joandarczienagebriel@gmail.com">
+      <a href="https://www.linkedin.com/in/joandarc-zienagebriel/">LinkedIn</a>
+      <a href="mailto:Joandarczienagebriel@gmail.com">
         Email
       </a>
 

@@ -1,4 +1,4 @@
-import commerce from '../assets/img/2.jpeg';
+import commerce from '../assets/img/2.avif';
 import school from '../assets/img/school.avif';
 import blog from '../assets/img/blog.avif';
 import booking from '../assets/img/booking.png'

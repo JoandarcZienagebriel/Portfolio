@@ -74,21 +74,7 @@ export default function Projects() {
         </a>
     </motion.div>
 
-    <motion.div className="card project-card" variants={child}>
-    
-      <h3>
-        
-          Django Backend
-       
-      </h3>
-       <img src={school} alt='teacher' className='img'
-      sizes='(max-width: 768px) 100vw, 361px'/>
-      <p className='pro-para'>Developed a full-stack student grading management system using React and Django,
-         enabling teachers to create, view, update, and delete student records and grades through a secure and efficient interface.</p>
-    <a className='button' href="https://crud-alpha-virid.vercel.app/"  target="_blank" rel="noopener noreferrer">
-    View Demo
-    </a>
-    </motion.div>
+
 
     <motion.div className="card project-card" variants={child}>
       <h3>
@@ -102,7 +88,21 @@ export default function Projects() {
           View Demo
         </a>
     </motion.div>
+  <motion.div className="card project-card" variants={child}>
   
+      <h3>
+        
+         Django Backend
+       
+      </h3>
+       <img src={school} alt='teacher' className='img'
+      sizes='(max-width: 768px) 100vw, 361px'/>
+      <p className='pro-para'>Developed a full-stack student grading management system using Django,
+         enabling teachers to create, view, update, and delete student records and grades through a secure and efficient interface.</p>
+    <a className='button' href="https://crud-alpha-virid.vercel.app/"  target="_blank" rel="noopener noreferrer">
+    View Demo
+    </a>
+    </motion.div>
     
 
   </motion.div>
